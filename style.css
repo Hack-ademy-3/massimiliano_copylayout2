@@ -1,0 +1,70 @@
+body {
+    background-color: #ededed;
+    font-family: 'Lexend Mega', sans-serif;
+}
+
+h1, h2, h3, .h1, .h2, .h3 {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+:root{
+    --main-color: red;
+    --accent-color: #ffffff;  
+}
+
+
+.text-main {
+     color: var(--main-color);
+}
+
+.text accent {
+    color:var (--accent-color);
+}
+
+.bg-main{
+    color: var(--main-color);
+}
+
+.bg-accent{
+    background-color: var(--accent-color);
+}
+
+.mynav{
+    background-color: red;
+}
+.bordoNavbar {
+border-bottom: 2px solid white;
+}
+.masthead {
+    height: 100vh;
+    min-height: 500px;
+    background-image: url(/imagenes/fondof1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .arrow {
+      left: 50%;
+      bottom: 10%;
+      color: red;
+  }
+  
+  @media screen and (max-width: 567px){
+
+    .arrow{
+        left:48%;
+        bottom: 0%;
+    }
+  }
+
+  .bordo-card{
+    border-bottom: 2px solid var(--main-color);
+    
+}
+
+.mybottom {
+
+    background-color: red;
+}
